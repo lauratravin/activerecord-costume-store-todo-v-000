@@ -1,5 +1,5 @@
 # Create your haunted_houses migration here
-class CreateHaunted_houses < ActiveRecord::Migration[5.1]
+class CreateHauntedHouses < ActiveRecord::Migration[5.1]
   def up
   end
   def down
@@ -14,7 +14,7 @@ class CreateHaunted_houses < ActiveRecord::Migration[5.1]
       t.datetime :open_time
       t.datetime :close_time
       t.text :description
-       t.timestamps
+      t.timestamps
     end
   end
 end
