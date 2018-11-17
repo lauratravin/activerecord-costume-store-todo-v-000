@@ -1,5 +1,5 @@
 # Create your costume_stores migration here
-class CreateCostumes_stores < ActiveRecord::Migration[5.1]
+class CreateCostumesStores < ActiveRecord::Migration[5.1]
   def up
   end
   def down
