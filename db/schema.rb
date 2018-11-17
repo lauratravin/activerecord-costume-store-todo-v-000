@@ -16,10 +16,10 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "name"
     t.string "location"
     t.integer "costume_inventory"
-    t.integer "number_of_employees"
-    t.boolean "business"
-    t.datetime "open_time"
-    t.datetime "close_time"
+    t.integer "num_of_employees"
+    t.boolean "still_in_business"
+    t.datetime "start_time"
+    t.datetime "end_time"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -39,8 +39,8 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "theme"
     t.float "price"
     t.boolean "family"
-    t.datetime "open_time"
-    t.datetime "close_time"
+    t.datetime "opening_time"
+    t.datetime "closing_time"
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
